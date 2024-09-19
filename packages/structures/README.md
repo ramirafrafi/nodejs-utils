@@ -15,7 +15,7 @@ As we know, key comparison in JavaScript [**Map**](https://developer.mozilla.org
 
 > _**NOTE:** When using keys as arrays or objects in `KeySerializedMap`, it is advised to use simple small arrays or objects with primitive values (numbers or strings) for performance and serialization issues._
 
-**Example 1: Key as array**
+**Example 1: Array as key**
 ```javascript
 import { KeySerializedMap } from '@ramirafrafi/structures';
 
@@ -27,7 +27,7 @@ map.get([2, 3]) // -> returns "value"
 map.get([3, 2]) // -> returns undefined, order is important !!
 ```
 
-**Example 1: Key as object**
+**Example 1: Object as key**
 ```javascript
 import { KeySerializedMap } from '@ramirafrafi/structures';
 
