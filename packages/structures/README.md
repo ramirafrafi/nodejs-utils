@@ -6,7 +6,7 @@
 This package defines a set of util data structures, all written in TypeScript and optimized for maximum performance.
 
 ## Documentation
-We are going to enlist the available data structures.
+We are going to list the available data structures.
 
 ### KeySerializedMap
 As we know, key comparison in JavaScript [**Map**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) is done using [**SameValueZero**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#same-value-zero_equality) algorithm, which means if the keys are arrays or objects, their equality is done by comparing the references, without looking at the content.
