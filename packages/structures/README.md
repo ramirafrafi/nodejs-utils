@@ -40,7 +40,7 @@ map.get({ 3: 1, 2: 0 }) // -> returns undefined, order is important !!
 ```
 
 ### LazyMap
-This data structure makes it possible to call a function and stores its return value in a Map minimizing and simplifying the written code.
+This data structure makes it possible to call a function and memoizing its return value in a Map, minimizing and simplifying the written code.
 
 **Example:**
 ```javascript
