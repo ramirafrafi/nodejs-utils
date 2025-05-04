@@ -8,4 +8,4 @@
 
 ## List of packages
 
-- [nodejs-utils/structures](./packages/structures/README.md)
+- [nodejs-structures](./packages/nodejs-structures/)
