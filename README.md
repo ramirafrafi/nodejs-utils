@@ -1,9 +1,11 @@
-# Node.js Utils
+<h1 align="center">
+    Node.js Utils
+</h1>
+<p align="center">
+    👋 Welcome to the <b>Node.js Utils</b> project 👋<br>
+    This repository groups a collection of Node.js util packages written in TypeScript, that are well designed and tested.
+</p>
 
-## Overview
-Welcome to the **Node.js Utils** project 👋.
+## List of packages
 
-This repository groups a set of open source util Node.js packages, written in TypeScript and are well designed and tested.
-
-## List of available packages
-* [nodejs-utils/structures](./packages/structures/README.md)
+- [nodejs-utils/structures](./packages/structures/README.md)
