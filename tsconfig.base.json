@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ramirafrafi/structures": ["packages/structures/src/index.ts"]
+      "@ramirafrafi/nodejs-structures": ["packages/nodejs-structures/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

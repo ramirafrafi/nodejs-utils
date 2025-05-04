@@ -1,7 +1,7 @@
 {
-  "name": "structures",
+  "name": "nodejs-structures",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/structures/src",
+  "sourceRoot": "packages/nodejs-structures/src",
   "projectType": "library",
   "release": {
     "version": {
@@ -17,10 +17,10 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/structures",
-        "main": "packages/structures/src/index.ts",
-        "tsConfig": "packages/structures/tsconfig.lib.json",
-        "assets": ["packages/structures/*.md"]
+        "outputPath": "dist/packages/nodejs-structures",
+        "main": "packages/nodejs-structures/src/index.ts",
+        "tsConfig": "packages/nodejs-structures/tsconfig.lib.json",
+        "assets": ["packages/nodejs-structures/*.md"]
       }
     },
     "nx-release-publish": {
